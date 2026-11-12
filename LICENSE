@@ -1,0 +1,33 @@
+DiscordAltyazı — Özel Mülk Yazılım Lisansı
+© 2026 IEF Software (https://iefsoftware.tr). Tüm hakları saklıdır.
+
+1. MÜLKİYET
+   Bu yazılım ve tüm kaynak kodu, dokümantasyonu ve türevleri IEF Software'in
+   münhasır mülkiyetindedir. Teslim edilen şey kullanım hakkıdır; mülkiyet
+   hiçbir koşulda devredilmiş sayılmaz (aksi yürürlükteki yazılı sözleşmede
+   açıkça belirtilmedikçe).
+
+2. KULLANIM HAKKI
+   Kullanım hakkı yalnızca yürürlükteki sözleşme kapsamında, sözleşmede
+   tanımlanan amaç ve sınırlar içinde geçerlidir.
+
+3. YASAKLAR
+   Yazılımın tamamının veya bir kısmının kopyalanması, dağıtılması, satılması,
+   kiralanması, alt lisanslanması, türev çalışma üretilmesi, kaynak koda
+   dönüştürülmesi (decompile), ayrıştırılması (disassemble) veya başka yollarla
+   tersine mühendisliğe tabi tutulması yasaktır.
+
+4. TELİF BİLDİRİMLERİNİN KORUNMASI
+   Kaynak dosyalardaki, derleme çıktılarındaki ve çalışma zamanı imzalarındaki
+   telif bildirimleri kaldırılamaz, değiştirilemez veya gizlenemez. Otomatik
+   araçlarla (kod üreticileri, dönüştürücüler, yapay zekâ araçları dahil)
+   yapılan dönüşümler de türev çalışma sayılır ve bu maddeye tabidir.
+
+5. ÜÇÜNCÜ TARAF BİLEŞENLER
+   Bu yazılım Apple'ın işletim sistemi çerçevelerini ve kullanıcının kendi
+   makinesinde kurulu `claude` komut satırı aracını kullanır. Bu bileşenler
+   kendi lisanslarına tabidir ve bu lisansın kapsamı dışındadır.
+
+6. GARANTİ REDDİ
+   Yazılım "olduğu gibi" sunulur. IEF Software, açık veya zımni hiçbir garanti
+   vermez ve kullanımdan doğan doğrudan veya dolaylı zararlardan sorumlu değildir.

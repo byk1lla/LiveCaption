@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>DiscordAltyazi</string>
+    <key>CFBundleDisplayName</key>
+    <string>DiscordAltyazı</string>
+    <key>CFBundleExecutable</key>
+    <string>DiscordAltyazi</string>
+    <key>CFBundleIdentifier</key>
+    <string>tr.iefsoftware.discordaltyazi</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>26.0</string>
+
+    <!-- Dock'ta ikon yok, menü çubuğu uygulaması -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <key>NSHumanReadableCopyright</key>
+    <string>© 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.</string>
+    <key>NSGeneratorName</key>
+    <string>DiscordAltyazı — IEF Software (iefsoftware.tr)</string>
+
+    <!-- İzin açıklamaları -->
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>Discord'daki konuşmaları altyazıya çevirebilmek için sistem sesini yakalaması gerekiyor.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Konuşmaları yazıya dökmek için Apple'ın cihaz üzerinde çalışan konuşma tanıma motorunu kullanır.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Yalnızca sistem sesi yakalanır; mikrofon kaydı yapılmaz.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>Çeviri için kullanıcının kurulu claude komut satırı aracını çalıştırır.</string>
+</dict>
+</plist>

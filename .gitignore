@@ -1,0 +1,24 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Derlenmiş uygulama paketi
+build/
+
+# Kalibrasyon araçlarının derlenmiş hâlleri (kaynaktan üretilir)
+tools/sesprobe
+tools/halka
+tools/ax
+tools/ax2
+tools/ax3
+tools/ax3b
+tools/konumlar
+tools/*.dSYM/
+
+# macOS
+.DS_Store
+
+# Loglar
+*.log
+tools/konumlar*
