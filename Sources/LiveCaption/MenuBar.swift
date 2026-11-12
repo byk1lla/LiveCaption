@@ -1,5 +1,5 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 
 import AppKit
 
@@ -53,9 +53,9 @@ final class MenuBarController: NSObject, NSMenuDelegate {
 
     private func configureButton() {
         guard let button = item.button else { return }
-        button.image = NSImage(systemSymbolName: "captions.bubble", accessibilityDescription: "DiscordAltyazı")
+        button.image = NSImage(systemSymbolName: "captions.bubble", accessibilityDescription: "LiveCaption")
         button.image?.isTemplate = true
-        button.toolTip = "DiscordAltyazı"
+        button.toolTip = "LiveCaption"
     }
 
     /// Durum göstergesi: yakalama açıkken dolu ikon.
@@ -63,7 +63,7 @@ final class MenuBarController: NSObject, NSMenuDelegate {
         isCapturing = capturing
         guard let button = item.button else { return }
         let symbol = capturing ? "captions.bubble.fill" : "captions.bubble"
-        button.image = NSImage(systemSymbolName: symbol, accessibilityDescription: "DiscordAltyazı")
+        button.image = NSImage(systemSymbolName: symbol, accessibilityDescription: "LiveCaption")
         button.image?.isTemplate = true
         button.contentTintColor = capturing ? .systemGreen : nil
         captureItem.title = capturing ? "Yakalamayı Durdur" : "Yakalamayı Başlat"

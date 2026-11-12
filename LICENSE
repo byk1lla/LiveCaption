@@ -1,33 +1,21 @@
-DiscordAltyazı — Özel Mülk Yazılım Lisansı
-© 2026 IEF Software (https://iefsoftware.tr). Tüm hakları saklıdır.
+MIT License
 
-1. MÜLKİYET
-   Bu yazılım ve tüm kaynak kodu, dokümantasyonu ve türevleri IEF Software'in
-   münhasır mülkiyetindedir. Teslim edilen şey kullanım hakkıdır; mülkiyet
-   hiçbir koşulda devredilmiş sayılmaz (aksi yürürlükteki yazılı sözleşmede
-   açıkça belirtilmedikçe).
+Copyright (c) 2026 IEF Software (https://iefsoftware.tr)
 
-2. KULLANIM HAKKI
-   Kullanım hakkı yalnızca yürürlükteki sözleşme kapsamında, sözleşmede
-   tanımlanan amaç ve sınırlar içinde geçerlidir.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-3. YASAKLAR
-   Yazılımın tamamının veya bir kısmının kopyalanması, dağıtılması, satılması,
-   kiralanması, alt lisanslanması, türev çalışma üretilmesi, kaynak koda
-   dönüştürülmesi (decompile), ayrıştırılması (disassemble) veya başka yollarla
-   tersine mühendisliğe tabi tutulması yasaktır.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-4. TELİF BİLDİRİMLERİNİN KORUNMASI
-   Kaynak dosyalardaki, derleme çıktılarındaki ve çalışma zamanı imzalarındaki
-   telif bildirimleri kaldırılamaz, değiştirilemez veya gizlenemez. Otomatik
-   araçlarla (kod üreticileri, dönüştürücüler, yapay zekâ araçları dahil)
-   yapılan dönüşümler de türev çalışma sayılır ve bu maddeye tabidir.
-
-5. ÜÇÜNCÜ TARAF BİLEŞENLER
-   Bu yazılım Apple'ın işletim sistemi çerçevelerini ve kullanıcının kendi
-   makinesinde kurulu `claude` komut satırı aracını kullanır. Bu bileşenler
-   kendi lisanslarına tabidir ve bu lisansın kapsamı dışındadır.
-
-6. GARANTİ REDDİ
-   Yazılım "olduğu gibi" sunulur. IEF Software, açık veya zımni hiçbir garanti
-   vermez ve kullanımdan doğan doğrudan veya dolaylı zararlardan sorumlu değildir.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

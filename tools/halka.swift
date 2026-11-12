@@ -1,4 +1,4 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
 // Kalibrasyon: (1) sesli kanal düğüm yapısını konumlarıyla dök,
 //              (2) Discord penceresini arkadayken yakalayıp PNG'ye yaz.
 import AppKit

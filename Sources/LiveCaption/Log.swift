@@ -1,5 +1,5 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 
 import Foundation
 
@@ -25,12 +25,12 @@ enum Log {
     private static let lock = NSLock()
 
     /// Konsolun yanı sıra dosyaya da yazılır — uygulama Finder'dan açıldığında
-    /// stdout görünmüyor. Yol: ~/Library/Logs/DiscordAltyazi.log
+    /// stdout görünmüyor. Yol: ~/Library/Logs/LiveCaption.log
     static let fileURL: URL = {
         let dir = FileManager.default.homeDirectoryForCurrentUser
             .appendingPathComponent("Library/Logs", isDirectory: true)
         try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
-        return dir.appendingPathComponent("DiscordAltyazi.log")
+        return dir.appendingPathComponent("LiveCaption.log")
     }()
 
     nonisolated(unsafe) private static var fileHandle: FileHandle? = {

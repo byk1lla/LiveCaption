@@ -1,5 +1,5 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 //
 // Kalibrasyon aracı. Discord'un erişilebilirlik ağacındaki sesli kanal
 // bölümünü örnekler ve SADECE DEĞİŞENLERİ basar. Biri konuşmaya başlayıp

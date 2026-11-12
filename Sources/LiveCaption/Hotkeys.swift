@@ -1,5 +1,5 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 
 import AppKit
 import Carbon.HIToolbox
@@ -17,8 +17,8 @@ final class HotkeyManager {
     private var nextID: UInt32 = 1
 
     private static let signature: OSType = {
-        // 'DCAZ'
-        let chars: [UInt8] = Array("DCAZ".utf8)
+        // 'LVCP'
+        let chars: [UInt8] = Array("LVCP".utf8)
         return (OSType(chars[0]) << 24) | (OSType(chars[1]) << 16) | (OSType(chars[2]) << 8) | OSType(chars[3])
     }()
 

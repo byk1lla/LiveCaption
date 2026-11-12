@@ -1,13 +1,13 @@
 #!/bin/bash
-# DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-# Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+# LiveCaption · © 2026 IEF Software · iefsoftware.tr
+# MIT Lisansı — bkz. LICENSE.
 #
 # SPM ile derler, sonucu çalıştırılabilir bir .app paketine sarar.
 set -euo pipefail
 
 cd "$(dirname "$0")"
 
-APP_NAME="DiscordAltyazi"
+APP_NAME="LiveCaption"
 BUNDLE="build/${APP_NAME}.app"
 CONFIG="${1:-release}"
 
@@ -28,7 +28,7 @@ cp Resources/Info.plist "${BUNDLE}/Contents/Info.plist"
 printf 'APPL????' > "${BUNDLE}/Contents/PkgInfo"
 
 echo "▸ İmzalanıyor (ad-hoc)…"
-codesign --force --sign - --identifier tr.iefsoftware.discordaltyazi "${BUNDLE}" 2>/dev/null \
+codesign --force --sign - --identifier tr.iefsoftware.livecaption "${BUNDLE}" 2>/dev/null \
   || echo "  (imzalama atlandı)"
 
 # Kullanıcı .app'i Masaüstü'ne taşıdıysa oradaki kopyayı da güncelle —
@@ -38,7 +38,7 @@ if [ -d "${INSTALLED}" ]; then
   echo "▸ Masaüstündeki kopya güncelleniyor: ${INSTALLED}"
   rm -rf "${INSTALLED}"
   cp -R "${BUNDLE}" "${INSTALLED}"
-  codesign --force --sign - --identifier tr.iefsoftware.discordaltyazi "${INSTALLED}" 2>/dev/null || true
+  codesign --force --sign - --identifier tr.iefsoftware.livecaption "${INSTALLED}" 2>/dev/null || true
 fi
 
 echo "✔ Hazır: ${BUNDLE}"

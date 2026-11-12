@@ -1,5 +1,5 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 
 import Foundation
 
@@ -162,7 +162,7 @@ final class ClaudeProcessHandle: @unchecked Sendable {
 
     /// Her süreç boş bir çalışma dizininde koşar — proje CLAUDE.md'si yüklenmesin.
     private static func scratchDirectory() -> URL {
-        let dir = FileManager.default.temporaryDirectory.appendingPathComponent("DiscordAltyazi-claude", isDirectory: true)
+        let dir = FileManager.default.temporaryDirectory.appendingPathComponent("LiveCaption-claude", isDirectory: true)
         try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
         return dir
     }

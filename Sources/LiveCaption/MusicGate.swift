@@ -1,5 +1,5 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 
 import Foundation
 import AVFoundation
@@ -29,7 +29,7 @@ final class MusicGate: NSObject, @unchecked Sendable {
     /// Bu süre içindeki en yüksek skorlara bakılır.
     private let windowSeconds: TimeInterval = 3.0
 
-    private let analysisQueue = DispatchQueue(label: "tr.iefsoftware.discordaltyazi.sound", qos: .userInitiated)
+    private let analysisQueue = DispatchQueue(label: "tr.iefsoftware.livecaption.sound", qos: .userInitiated)
     private let lock = NSLock()
 
     private var streamAnalyzer: SNAudioStreamAnalyzer?

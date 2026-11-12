@@ -1,16 +1,16 @@
 // swift-tools-version: 6.0
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 
 import PackageDescription
 
 let package = Package(
-    name: "DiscordAltyazi",
+    name: "LiveCaption",
     platforms: [.macOS("26.0")],
     targets: [
         .executableTarget(
-            name: "DiscordAltyazi",
-            path: "Sources/DiscordAltyazi",
+            name: "LiveCaption",
+            path: "Sources/LiveCaption",
             swiftSettings: [
                 .swiftLanguageMode(.v5)
             ]

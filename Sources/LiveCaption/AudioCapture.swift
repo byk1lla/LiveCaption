@@ -1,5 +1,5 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 
 import Foundation
 import AVFoundation
@@ -35,7 +35,7 @@ final class AudioCapture: NSObject, @unchecked Sendable {
     var onStreamStopped: ((Error) -> Void)?
 
     private var stream: SCStream?
-    private let sampleQueue = DispatchQueue(label: "tr.iefsoftware.discordaltyazi.audio", qos: .userInitiated)
+    private let sampleQueue = DispatchQueue(label: "tr.iefsoftware.livecaption.audio", qos: .userInitiated)
 
     /// SpeechAnalyzer'ın beklediği hedef format.
     private var targetFormat: AVAudioFormat?

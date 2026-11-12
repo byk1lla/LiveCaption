@@ -1,4 +1,4 @@
-# DiscordAltyazı
+# LiveCaption
 
 macOS menü çubuğu uygulaması. Mac'in **sistem sesini** canlı yakalar, Apple'ın
 **cihaz üzerinde çalışan** SpeechAnalyzer motoruyla İngilizceye döker, Türkçeye
@@ -42,16 +42,16 @@ sudo softwareupdate -i "Command Line Tools for Xcode 27.2-27.2"
 ## Derleme
 
 ```bash
-cd ~/Desktop/DiscordAltyazi
+cd ~/Desktop/LiveCaption
 ./build.sh              # release
 ./build.sh debug        # debug
 ```
 
-Çıktı: `build/DiscordAltyazi.app`
+Çıktı: `build/LiveCaption.app`
 
 ```bash
-open build/DiscordAltyazi.app                      # normal çalıştırma
-build/DiscordAltyazi.app/Contents/MacOS/DiscordAltyazi   # logları görmek için
+open build/LiveCaption.app                      # normal çalıştırma
+build/LiveCaption.app/Contents/MacOS/LiveCaption   # logları görmek için
 ```
 
 İkinci komut uygulamayı terminalden başlatır; gecikme ölçümleri, hot swap ve
@@ -66,7 +66,7 @@ fallback olayları doğrudan konsola düşer.
 Sistem sesi ScreenCaptureKit ile yakalanıyor; macOS bunu Ekran Kaydı izni
 altında tutuyor. Uygulama ilk açılışta izin panelini tetikler.
 
-**Sistem Ayarları → Gizlilik ve Güvenlik → Ekran Kaydı** → DiscordAltyazı açık.
+**Sistem Ayarları → Gizlilik ve Güvenlik → Ekran Kaydı** → LiveCaption açık.
 İzni verdikten sonra **uygulamayı yeniden başlat**.
 
 > **Geliştirme sırasında:** uygulamayı terminalden çalıştırıyorsan izin
@@ -331,4 +331,19 @@ yer. Haiku seçilmesinin sebebi bu (hem ucuz hem hızlı), ama yine de:
 
 ---
 
-© 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır. Bkz. `LICENSE`.
+## Katkı
+
+Sorun bildirmek veya katkıda bulunmak için issue/PR açabilirsin. Discord'un
+arayüzü değiştiğinde konuşmacı tespiti bozulabilir — `tools/` altındaki
+kalibrasyon araçları bunun için var, çıktılarını issue'ya eklersen yeterli.
+
+## Lisans
+
+MIT. Kullanabilir, değiştirebilir, ticari projende kullanabilirsin — tek şart
+telif bildirimini korumak. Ayrıntı: [`LICENSE`](LICENSE).
+
+Bu yazılım Discord ile ilişkili değildir; Discord, Discord Inc.'in tescilli
+markasıdır. Uygulama yalnızca sistem sesini dinler ve Discord'un kendi
+arayüzünü okur.
+
+© 2026 IEF Software · [iefsoftware.tr](https://iefsoftware.tr)

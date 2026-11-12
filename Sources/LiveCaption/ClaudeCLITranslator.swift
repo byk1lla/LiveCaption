@@ -1,5 +1,5 @@
-// DiscordAltyazi · © 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.
-// Özel mülk yazılım. Bu bildirim kopya ve türevlerde korunur — bkz. LICENSE.
+// LiveCaption · © 2026 IEF Software · iefsoftware.tr
+// MIT Lisansı — bkz. LICENSE.
 
 import Foundation
 
@@ -171,7 +171,7 @@ actor ClaudeCLITranslator: Translator {
 
     func translate(_ text: String, context: [String]) async throws -> String {
         guard let handle = active else {
-            throw NSError(domain: "DiscordAltyazi", code: 1,
+            throw NSError(domain: "LiveCaption", code: 1,
                           userInfo: [NSLocalizedDescriptionKey: "Claude süreci hazır değil"])
         }
 

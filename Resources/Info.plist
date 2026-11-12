@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>DiscordAltyazi</string>
+    <string>LiveCaption</string>
     <key>CFBundleDisplayName</key>
-    <string>DiscordAltyazı</string>
+    <string>LiveCaption</string>
     <key>CFBundleExecutable</key>
-    <string>DiscordAltyazi</string>
+    <string>LiveCaption</string>
     <key>CFBundleIdentifier</key>
-    <string>tr.iefsoftware.discordaltyazi</string>
+    <string>tr.iefsoftware.livecaption</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
@@ -24,9 +24,9 @@
     <true/>
 
     <key>NSHumanReadableCopyright</key>
-    <string>© 2026 IEF Software · iefsoftware.tr · Tüm hakları saklıdır.</string>
+    <string>© 2026 IEF Software · iefsoftware.tr · MIT Lisansı</string>
     <key>NSGeneratorName</key>
-    <string>DiscordAltyazı — IEF Software (iefsoftware.tr)</string>
+    <string>LiveCaption — IEF Software (iefsoftware.tr)</string>
 
     <!-- İzin açıklamaları -->
     <key>NSScreenCaptureUsageDescription</key>
